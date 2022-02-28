@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
-const authSecret = require("../auth/auth.json");
+
+require('dotenv').config()
 
 module.exports = {
   auth(req, res, next) {
@@ -19,7 +20,7 @@ module.exports = {
         error: "the token sent does not match the jsonwebtoken format❗",
       });
 
-    jwt.verify(token, authSecret.secret, (err, decode) => {
+    jwt.verify(token, process.env.SECRET, (err, decode) => {
       if (err)
         return res.status(400).json({
           error: "the sent token does not match the generated token❗",

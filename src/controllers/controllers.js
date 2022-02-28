@@ -2,10 +2,11 @@ const model = require("../model/schema");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
-const auth = require("../auth/auth.json");
+
+
 
 function generatedToken(params = {}) {
-  return jwt.sign(params, auth.secret, {
+  return jwt.sign(params, process.env.SECRET, {
     expiresIn: 86400,
   });
 }
