@@ -5,8 +5,9 @@
   "author": "marcos <marcodamasceno07@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index -w",
-    "dev":"node index -w"
+    "start": "node index -w",
+    "dev":"nodemon index -w"
+    
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
