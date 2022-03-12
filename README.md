@@ -3,7 +3,10 @@
 ### test on your machine 💻
 #
 * first clone the auth-backend repository
-![](./src/assets/link-clone.png)
+
+> ![](./src/assets/link-clone.png)
+
+
 * then, in your terminal type the command, __git clone + repository link__
 
 
