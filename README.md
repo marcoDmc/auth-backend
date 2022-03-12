@@ -11,7 +11,7 @@
 
 
 
-![](./src/assets/clone.png)
+> ![](./src/assets/clone.png)
 
 
 
@@ -22,7 +22,7 @@
 * create an .env file in the project root, and add the following variables
 
 
-![](./src/assets/env.png)
+> ![](./src/assets/env.png)
 
 > to create an account in mongo db
 
