@@ -6,7 +6,11 @@
 ![](./src/assets/link-clone.png)
 * then, in your terminal type the command, __git clone + repository link__
 
+
+
 ![](./src/assets/clone.png)
+
+
 
 
 * after doing this, access the folder and install the dependencies, with the command __yarn__ or __npm i__
