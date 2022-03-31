@@ -3,10 +3,17 @@
 ### test on your machine 💻
 #
 * first clone the auth-backend repository
-![](./src/assets/link-clone.png)
+
+> ![](./src/assets/link-clone.png)
+
+
 * then, in your terminal type the command, __git clone + repository link__
 
-![](./src/assets/clone.png)
+
+
+> ![](./src/assets/clone.png)
+
+
 
 
 * after doing this, access the folder and install the dependencies, with the command __yarn__ or __npm i__
@@ -15,7 +22,7 @@
 * create an .env file in the project root, and add the following variables
 
 
-![](./src/assets/env.png)
+> ![](./src/assets/env.png)
 
 > to create an account in mongo db
 
