@@ -33,7 +33,7 @@ module.exports = {
     } catch (error) {
       return res
         .status(400)
-        .json({ error: "não foi possivel criar o usuario 😪" });
+        .json({ error: "could not create user 😪" });
     }
   },
 
